@@ -1,0 +1,72 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: steelblue;
+  overflow: hidden;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#form textarea {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  resize: vertical;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.btn-group {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+label[for="decodeUrl"] {
+  font-size: large;
+  margin: 5px auto;
+  font-weight: 700;
+}
+.btns {
+  display: block;
+  border: none;
+  width: 100%;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+#form,
+.form-group {
+  width: 300px;
+}
+blockquote {
+  text-align: center;
+  font-size: large;
+  font-weight: 700;
+  font-style: italic;
+  margin: 5px auto;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+kbd {
+  user-select: all;
+  background-color: rgba(0, 0, 0, 0.1);
+}
